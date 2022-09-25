@@ -1,3 +1,12 @@
+.cart-section {
+    position: sticky;
+    top: 2rem;
+    background: #ff99004d;
+    border-radius: 8px;
+    max-height: 600px;
+    padding: 1rem 0;
+}
+
 .cart-title {
     text-align: center;
     font-weight: 500;
@@ -13,6 +22,10 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
+}
+
+.item-amount {
+    font-weight: bold;
 }
 
 .button-box {
