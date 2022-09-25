@@ -12,12 +12,12 @@ const Product = ({ product, handleAddToCart }) => {
         ratings,
         seller,
     } = product;
-    const handleAdd = (item) => { console.log(item) }
+    // const handleAdd = (item) => { console.log(item) }
 
 
     return (
         <div className='product-box'>
-            <img src={img} alt="Product Image" ></img>
+            <img src={img} alt="Product" />
             <h2 className='product-name'>{name}</h2>
             <div>
                 <h3 className="product-price">Price: ${price}</h3>
